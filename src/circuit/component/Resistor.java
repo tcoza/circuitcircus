@@ -19,7 +19,6 @@ public class Resistor extends CircuitElement implements ComponentGUI
 	
 	/**
 	 * Creates new resistor with specified resistance
-	 * @param resistance 
 	 */
 	public Resistor()
 	{

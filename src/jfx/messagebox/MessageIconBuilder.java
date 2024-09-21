@@ -64,7 +64,6 @@ class MessageIconBuilder {
      * Draw error icon.
      * 
      * @param zoomRate
-     * @param root
      */
     public static Group drawErrorIcon(final int zoomRate) {
         final Group root = new Group();

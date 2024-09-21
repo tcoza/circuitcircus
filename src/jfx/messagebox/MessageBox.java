@@ -65,28 +65,24 @@ import javafx.stage.Window;
  * Usage 1</h3>
  * 
  * <code>
- * <pre>
  * import jfx.messagebox.MessageBox;
  * 
  *     MessageBox.show(primaryStage,
  *         "Sample of error dialog.\n\nDialog option is below.\n[MessageBox.ICON_ERROR]",
  *         "Error dialog",
  *         MessageBox.ICON_ERROR);
- * </pre>
  * </code>
  * 
  * <h3>
  * Usage 2</h3>
  * 
  * <code>
- * <pre>
  * import jfx.messagebox.MessageBox;
  * 
  *     MessageBox.show(primaryStage,
  *         "Sample of information dialog.\n\nDialog option is below.\n[MessageBox.ICON_INFORMATION | MessageBox.OK | MessageBox.CANCEL]",
  *         "Information dialog",
  *         MessageBox.ICON_INFORMATION | MessageBox.OK | MessageBox.CANCEL);
- * </pre>
  * </code>
  * 
  * <h3>

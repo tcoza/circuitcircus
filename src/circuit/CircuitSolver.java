@@ -182,8 +182,6 @@ class CircuitSolver
 	
 	/**
 	 * Crawls in the circuit to find loops that can be used with Kirchov's voltage law
-	 * @param node
-	 * @param pin
 	 * @throws InconsistentCircuitException 
 	 */
 	private void getLoops(Stack<CircuitSegment> segmentStack, Set<List<CircuitSegment>> loops) throws InconsistentCircuitException
